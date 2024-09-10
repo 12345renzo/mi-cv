@@ -1,0 +1,133 @@
+.slide-top-container {
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.slide-top {
+    margin: 0;
+    padding: 0;
+    -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.conten {
+    background-color: #111;
+    margin: 0 15%;
+}
+
+.daleh2 {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+
+.controles {
+    background-color: #161616;
+    margin-bottom: 25px;
+}
+
+.inputs {
+    padding: 5.5px 20px;
+    color: #9f9f9f;
+    border-bottom: 1px solid #1d1d1d;
+}
+
+.inputs:hover {
+    border-bottom: 1px solid #1d1d1d;
+}
+
+.inputs.MuiInput-underline:before {
+    border-bottom: none !important;
+}
+
+.inputs.Mui-focused {
+    border-bottom: 2px solid #009e66;
+    box-shadow: none;
+    outline: none;
+}
+
+.inputs.MuiInput-underline:after {
+    border-bottom: none;
+    outline: none;
+    box-shadow: none;
+}
+
+input:-webkit-autofill {
+    background-color: #9f9f9f !important;
+    -webkit-box-shadow: 0 0 0px 1000px #161616 inset !important; 
+    box-shadow: 0 0 0px 1000px #161616 inset !important;
+    -webkit-text-fill-color: #9f9f9f !important;
+    color: #9f9f9f !important; 
+}
+
+.enviar{
+    text-transform: none;
+    color: white;
+    font-weight: 400;
+    padding: 10px 26px;
+    background-color: #009e66;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+.peque{
+    color: #9f9f9f;
+    font-size: 15px;
+    margin-bottom: 28px;
+}
+
+.olp{
+    font-size: 15px;
+    color: #f0f0f0;
+}
+.op{
+    color: #9f9f9f;
+    font-size: 14px;
+    width: auto;
+}
+.pl{
+    margin: 15px 0;
+}
+
+@media (max-width: 1100px) {
+    .conten {
+      margin: 0 10%;
+    }
+  }
+  @media (max-width: 950px) {
+    .conten {
+      margin: 0 5%;
+    }
+  }
+  @media (max-width: 800px) {
+    .conten {
+      margin: 0 2%;
+    }
+  }
+
+@-webkit-keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,27 @@
+.campo{
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 15px 15px 0px 15px;
+    padding: 10px;
+    height: 28vh;
+}
+.list2{
+    text-decoration: none;
+    writing-mode: vertical-rl;
+    color: white;
+    font-weight: 700;
+    margin: 5px;
+    padding: 5px 0; 
+    text-align: center;
+}
+.list{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin: 5px;
+    padding: 5px 0; 
+    text-align: center;
+}

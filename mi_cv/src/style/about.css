@@ -1,0 +1,180 @@
+.slide-top-container {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.slide-top {
+  margin: 0;
+  padding: 0;
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.conten {
+  background-color: #111;
+  margin: 0 15%;
+}
+
+.pri {
+  color: #009e66;
+  font-size: 24px;
+  font-weight: 550;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.title {
+  color: #f0f0f0;
+  font-size: 31px;
+  margin-bottom: 16px;
+}
+
+.lore {
+  font-size: 15px;
+  color: #9f9f9f;
+  padding-bottom: 29px;
+}
+
+.special {
+  color: #dadada;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.item {
+  color: #9f9f9f;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sp {
+  color: #009e66;
+}
+
+.btn {
+  background-color: #009e66;
+  text-transform: none;
+  padding: 10px 35px;
+  margin: 0 23px 0 0;
+  border-radius: 25px;
+  color: #ffff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.barra {
+  width: 60px;
+  height: 2px;
+  background-color: #9f9f9f;
+}
+
+.list {
+  margin: 0 15px 0 0;
+}
+
+.foto1 {
+  margin: 38.75px 53.4px;
+  width: 350px;
+  border: 2px #111 solid;
+  height: 530px;
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, .18);
+}
+
+.foto2 {
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, .18);
+  border-radius: 20%;
+  width: 220px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1600px) {
+  .conten {
+    margin: 0 10%;
+  }
+}
+
+@media (max-width: 1450px) {
+  .conten {
+    margin: 0 5%;
+  }
+}
+
+@media (max-width: 1255px) {
+  .conten {
+    margin: 0 3%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .conten {
+    margin: 0 3%;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .lore {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .conten {
+    margin: 0 0.5%;
+  }
+}
+
+@media (max-width: 999px) {
+  .conten {
+    margin: 0 15%;
+  }
+}
+
+@media (max-width: 830px) {
+  .conten {
+    margin: 0 5%;
+  }
+}
+
+@media (max-width: 500px) {
+  .conten {
+    margin: 0 0.2%;
+  }
+
+  .foto2 {
+    width: 175px;
+    height: 200px;
+  }
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
