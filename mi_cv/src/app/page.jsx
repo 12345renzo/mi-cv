@@ -1,7 +1,4 @@
 "use client"
-
-import Image from "next/image";
-import styles from "./page.module.css";
 import Navbar from "@/components/Navbar";
 import "../style/inicio.css";
 import Footer from "@/components/Footer";

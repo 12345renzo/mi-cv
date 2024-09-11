@@ -105,7 +105,7 @@ function page() {
                     }}
                   >
                     <span className="special">Nombre:</span>
-                    <p className="item">Paul Renzo Gonzales Asencios</p>
+                    <p className="tem">Paul Renzo Gonzales Asencios</p>
                   </Grid2>
                   <Grid2
                     item
@@ -118,7 +118,7 @@ function page() {
                     }}
                   >
                     <span className="special">Correo Electronico:</span>
-                    <p className="item sp">renzogonzalesasencios@gmail.com</p>
+                    <p className="tem sp">renzogonzalesasencios@gmail.com</p>
                   </Grid2>
                   <Grid2
                     item
@@ -130,7 +130,7 @@ function page() {
                       },
                     }}
                   >
-                    <p className="item">
+                    <p className="tem">
                       <span className="special">Edad:</span>21
                     </p>
                   </Grid2>
@@ -144,7 +144,7 @@ function page() {
                       },
                     }}
                   >
-                    <p className="item">
+                    <p className="tem">
                       <span className="special">De:</span>Huacho,Lima,Perú
                     </p>
                   </Grid2>
@@ -157,7 +157,7 @@ function page() {
                       flexDirection: "column", 
                     },marginBottom:"70px"}}>
                   <Grid2 item size={4} sx={{ width: "auto" }}>
-                    <Button className="btn" href="/pdf/cv.pdf" download="CV_Renzo_Gonzales.pdf">Descargar CV</Button>
+                    <Button className="descar" href="/pdf/cv.pdf" download="CV_Renzo_Gonzales.pdf">Descargar CV</Button>
                   </Grid2>
                   <Grid2
                     container
