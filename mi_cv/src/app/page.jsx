@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 import { Typography } from "@mui/material";
 
 function HomePage() {
-  const names = ['Ing. Informatico', 'Web Development', 'Software Development'];
+  const names = ['Ing. Informatico', 'Full Stack', 'Software Development'];
   const [currentName, setCurrentName] = useState('');
   const [currentNameIndex, setCurrentNameIndex] = useState(0);
   const [letterIndex, setLetterIndex] = useState(0);
